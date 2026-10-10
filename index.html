@@ -26,6 +26,28 @@
       color: #fff;
       cursor: pointer;
     }
+    .social-login {
+      margin-top: 24px;
+      padding: 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      max-width: 320px;
+    }
+    .social-login h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+    }
+    .social-login button {
+      display: block;
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f7f7f7;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -45,5 +67,11 @@
   </p>
 
   <button class="subscribe-btn" type="button">Подписаться на новости</button>
+
+  <form class="social-login">
+    <h2>Вход через соцсети</h2>
+    <button type="button" class="social-btn social-btn--google">Войти через Google</button>
+    <button type="button" class="social-btn social-btn--vk">Войти через VK</button>
+  </form>
 </body>
 </html>
